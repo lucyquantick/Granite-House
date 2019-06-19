@@ -2,11 +2,11 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "bootstrap/4.0.0": {
+      "bootstrap/4.3.1": {
         "type": "package",
         "dependencies": {
           "jQuery": "[3.0.0, 4.0.0)",
-          "popper.js": "[1.12.9, 2.0.0)"
+          "popper.js": "[1.14.0, 2.0.0)"
         }
       },
       "jQuery/3.0.0": {
@@ -2795,7 +2795,7 @@
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
         }
       },
-      "popper.js/1.12.9": {
+      "popper.js/1.14.0": {
         "type": "package"
       },
       "Remotion.Linq/2.2.0": {
@@ -4632,14 +4632,15 @@
     }
   },
   "libraries": {
-    "bootstrap/4.0.0": {
-      "sha512": "aW3kJMmptC2GD4+hIa3x3fSrPF4VkrWQ2PRBEJg+o7lMRMi7u4UW9igY/GP02/wrIpH/CusL+mQIM42YhvA3XQ==",
+    "bootstrap/4.3.1": {
+      "sha512": "lrVBeG2vmfwsHJuwSzeXz+1hPn/374vXDOAusU50vzljEWcFOFtif3wzIJJqfqQRHs2RnY0xttZ0Zv5JX4BFGg==",
       "type": "package",
-      "path": "bootstrap/4.0.0",
+      "path": "bootstrap/4.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "bootstrap.4.0.0.nupkg.sha512",
+        "LICENSE.txt",
+        "bootstrap.4.3.1.nupkg.sha512",
         "bootstrap.nuspec",
         "content/Content/bootstrap-grid.css",
         "content/Content/bootstrap-grid.css.map",
@@ -4660,7 +4661,27 @@
         "content/Scripts/bootstrap.js",
         "content/Scripts/bootstrap.js.map",
         "content/Scripts/bootstrap.min.js",
-        "content/Scripts/bootstrap.min.js.map"
+        "content/Scripts/bootstrap.min.js.map",
+        "contentFiles/Content/bootstrap-grid.css",
+        "contentFiles/Content/bootstrap-grid.css.map",
+        "contentFiles/Content/bootstrap-grid.min.css",
+        "contentFiles/Content/bootstrap-grid.min.css.map",
+        "contentFiles/Content/bootstrap-reboot.css",
+        "contentFiles/Content/bootstrap-reboot.css.map",
+        "contentFiles/Content/bootstrap-reboot.min.css",
+        "contentFiles/Content/bootstrap-reboot.min.css.map",
+        "contentFiles/Content/bootstrap.css",
+        "contentFiles/Content/bootstrap.css.map",
+        "contentFiles/Content/bootstrap.min.css",
+        "contentFiles/Content/bootstrap.min.css.map",
+        "contentFiles/Scripts/bootstrap.bundle.js",
+        "contentFiles/Scripts/bootstrap.bundle.js.map",
+        "contentFiles/Scripts/bootstrap.bundle.min.js",
+        "contentFiles/Scripts/bootstrap.bundle.min.js.map",
+        "contentFiles/Scripts/bootstrap.js",
+        "contentFiles/Scripts/bootstrap.js.map",
+        "contentFiles/Scripts/bootstrap.min.js",
+        "contentFiles/Scripts/bootstrap.min.js.map"
       ]
     },
     "jQuery/3.0.0": {
@@ -7778,10 +7799,10 @@
         "nuget.frameworks.nuspec"
       ]
     },
-    "popper.js/1.12.9": {
-      "sha512": "WfoI8YXFx31zr8w6AvYMmqKihR3a/wLc5wBhu41ApgBukTM8C2UHNSRFrO6485SDQ/HKoSn9yiEMgfBx1LVNNw==",
+    "popper.js/1.14.0": {
+      "sha512": "SPxZdXknelgQ015wey7GMZvsVdt/SyEmHYORhEp5k/uF9MUk9DPtkn+6dR98fud2hVWJjZm9KKr474+r7WQt+A==",
       "type": "package",
-      "path": "popper.js/1.12.9",
+      "path": "popper.js/1.14.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7811,7 +7832,7 @@
         "content/Scripts/umd/popper.js.map",
         "content/Scripts/umd/popper.min.js",
         "content/Scripts/umd/popper.min.js.map",
-        "popper.js.1.12.9.nupkg.sha512",
+        "popper.js.1.14.0.nupkg.sha512",
         "popper.js.nuspec"
       ]
     },
@@ -12639,7 +12660,7 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9",
-      "bootstrap >= 4.0.0"
+      "bootstrap >= 4.3.1"
     ]
   },
   "packageFolders": {
@@ -12706,7 +12727,7 @@
           },
           "bootstrap": {
             "target": "Package",
-            "version": "[4.0.0, )"
+            "version": "[4.3.1, )"
           }
         },
         "imports": [
