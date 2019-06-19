@@ -42,3 +42,4 @@ C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\ne
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Details.g.cshtml.cs
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Edit.g.cshtml.cs
+C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Delete.g.cshtml.cs
