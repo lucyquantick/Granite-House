@@ -9,7 +9,6 @@ C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\ne
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.csproj.CoreCompileInputs.cache
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.RazorAssemblyInfo.cache
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.RazorAssemblyInfo.cs
-C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.AssemblyInfoInputs.cache
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.AssemblyInfo.cs
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.TagHelpers.input.cache
@@ -33,3 +32,4 @@ C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\ne
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.dll
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.pdb
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.csproj.CopyComplete
+C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
