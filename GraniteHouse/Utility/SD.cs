@@ -9,6 +9,6 @@ namespace GraniteHouse.Utility
 	{
 		public const string DefaultProductImage = "default_image.jpg";
 
-		public const string ImageFolder = @"image\ProductImage.jpg";
+		public const string ImageFolder = @"images\ProductImage";
 	}
 }
