@@ -51,3 +51,4 @@ C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\ne
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Index.g.cshtml.cs
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Create.g.cshtml.cs
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Edit.g.cshtml.cs
+C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Details.g.cshtml.cs
