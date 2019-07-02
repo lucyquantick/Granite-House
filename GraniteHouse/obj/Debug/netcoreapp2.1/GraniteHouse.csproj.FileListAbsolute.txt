@@ -55,3 +55,6 @@ C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\ne
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Delete.g.cshtml.cs
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Details.g.cshtml.cs
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCart\Index.g.cshtml.cs
+C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AppointmentProductDetails.g.cshtml.cs
+C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AppointmentCustomerDetails.g.cshtml.cs
+C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCart\AppointmentConfirmation.g.cshtml.cs
