@@ -35,35 +35,35 @@
 		</tr>
 		@foreach (var item in Model)
 		{
-	<tr>
-		<td>
-			@Html.DisplayFor(m => item.Name)
-		</td>
-		<td>
-			@Html.DisplayFor(m => item.Email)
-		</td>
-		<td>
-			@Html.DisplayFor(m => item.PhoneNumber)
-		</td>
-		<td>
-			@if(item.LockoutEnd!=null && item.LockoutEnd > DateTime.Now)
-			{
-				<label>Disabled</label>
-			}
-		</td>
-		<td>
-			@if (item.LockoutEnd == null || item.LockoutEnd < DateTime.Now)
-			{
-				<a type="button" class="btn btn-primary" href="@Url.Action("Edit/" + item.Id)">
-					<i class="fas fa-edit"></i>
-				</a>
-				<a type="button" class="btn btn-danger" href="@Url.Action("Delete/" + item.Id)">
-					<i class="fas fa-trash-alt"></i>
-				</a>
-			}
-		</td>
-	
-	</tr>
+			<tr>
+				<td>
+					@Html.DisplayFor(m => item.Name)
+				</td>
+				<td>
+					@Html.DisplayFor(m => item.Email)
+				</td>
+				<td>
+					@Html.DisplayFor(m => item.PhoneNumber)
+				</td>
+				<td>
+					@if (item.LockoutEnd != null && item.LockoutEnd > DateTime.Now)
+					{
+						<label>Disabled</label>
+					}
+				</td>
+				<td>
+					@if (item.LockoutEnd == null || item.LockoutEnd < DateTime.Now)
+					{
+						<a type="button" class="btn btn-primary" href="@Url.Action("Edit/" + item.Id)">
+							<i class="fas fa-edit"></i>
+						</a>
+						<a type="button" class="btn btn-danger" href="@Url.Action("Delete/" + item.Id)">
+							<i class="fas fa-trash-alt"></i>
+						</a>
+					}
+				</td>
+
+			</tr>
 		}
 	</table>
 </div>
