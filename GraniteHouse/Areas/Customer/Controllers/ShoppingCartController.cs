@@ -6,6 +6,7 @@ using GraniteHouse.Data;
 using GraniteHouse.Extensions;
 using GraniteHouse.Models;
 using GraniteHouse.Models.ViewModel;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -75,6 +76,23 @@ namespace GraniteHouse.Areas.Customer.Controllers
 			HttpContext.Session.Set("ssShoppingCart", lstCartItems);
 
 			return RedirectToAction("Index");
+		}
+
+		public IActionResult Remove(int id)
+		{
+			List<int> lstCartItems = HttpContext.Session.Get<List<int>>("ssShoppingCart");
+
+			if(lstCartItems.Count > 0)
+			{
+				if (lstCartItems.Contains(id))
+				{
+					lstCartItems.Remove(id);
+				}
+			}
+
+			HttpContext.Session.Set("ssShoppingCart", lstCartItems);
+
+			return RedirectToAction(nameof(Index));
 		}
 	}
 }
