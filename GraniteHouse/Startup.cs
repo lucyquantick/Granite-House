@@ -29,8 +29,8 @@ namespace GraniteHouse
 		{
 			services.Configure<CookiePolicyOptions>(options =>
 			{
-							// This lambda determines whether user consent for non-essential cookies is needed for a given request.
-							options.CheckConsentNeeded = context => true;
+				// This lambda determines whether user consent for non-essential cookies is needed for a given request.
+				options.CheckConsentNeeded = context => true;
 				options.MinimumSameSitePolicy = SameSiteMode.None;
 			});
 
@@ -41,6 +41,12 @@ namespace GraniteHouse
 					.AddEntityFrameworkStores<ApplicationDbContext>();
 
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+			services.AddSession(options =>
+			{
+				options.IdleTimeout = TimeSpan.FromMinutes(30);
+				options.Cookie.HttpOnly = true;
+			});
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -62,6 +68,8 @@ namespace GraniteHouse
 			app.UseCookiePolicy();
 
 			app.UseAuthentication();
+
+			app.UseSession();
 
 			app.UseMvc(routes =>
 			{
