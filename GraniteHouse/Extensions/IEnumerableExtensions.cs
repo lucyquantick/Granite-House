@@ -21,7 +21,7 @@ namespace GraniteHouse.Extensions
 
 		public static IEnumerable<SelectListItem> ToSelectListItemString<T>(this IEnumerable<T> items, string selectedValue)
 		{
-			if(selectedValue == null)
+			if (selectedValue == null)
 			{
 				selectedValue = "";
 			}
@@ -33,5 +33,7 @@ namespace GraniteHouse.Extensions
 							 Selected = item.GetPropertyValue("Id").Equals(selectedValue.ToString())
 						 };
 		}
+
 	}
 }
+
