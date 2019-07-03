@@ -44,26 +44,26 @@ namespace GraniteHouse.Areas.Admin.Controllers
 
 			param.Append("/Admin/Appointments?productPage=:");
 
-			param.Append("&searchName");
+			param.Append("&searchName=");
 			if(searchName != null)
 			{
-				param.Append(searchName)
-			};
-			param.Append("&searchEmail");
+				param.Append(searchName);
+			}
+			param.Append("&searchEmail=");
 			if (searchEmail != null)
 			{
-				param.Append(searchEmail)
-			};
-			param.Append("&searchPhone");
+				param.Append(searchEmail);
+			}
+			param.Append("&searchPhone=");
 			if (searchPhone != null)
 			{
-				param.Append(searchPhone)
-			};
-			param.Append("&searchDate");
+				param.Append(searchPhone);
+			}
+			param.Append("&searchDate=");
 			if (searchDate != null)
 			{
-				param.Append(searchDate)
-			};
+				param.Append(searchDate);
+			}
 
 			appointmentVM.Appointments = _db.Appointments.Include(a => a.SalesPerson).ToList();
 

@@ -16,9 +16,9 @@ namespace GraniteHouse.TagHelpers
 	{
 		private IUrlHelperFactory urlHelperFactory;
 
-		public PageLinkTagHelper(Iurlhelperfactory helperFactory)
+		public PageLinkTagHelper(IUrlHelperFactory helperFactory)
 		{
-			urlHelperFactory helperFactory;
+			urlHelperFactory = helperFactory;
 		}
 
 		[ViewContext]
