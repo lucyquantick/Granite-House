@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using GraniteHouse.Data;
+using GraniteHouse.Models;
 using GraniteHouse.Models.ViewModel;
 using GraniteHouse.Utility;
 using Microsoft.AspNetCore.Authorization;
@@ -26,8 +27,10 @@ namespace GraniteHouse.Areas.Admin.Controllers
 
 		public async Task<IActionResult> Index(string searchName = null, string searchEmail = null, string searchPhone = null, string searchDate = null)
 		{
-			System.Security.Claims.ClaimsPrincipal currentUser = this.User;
-			var claimsIdentity = (ClaimsIdentity)this.User.Identity;
+			//System.Security.Claims.ClaimsPrincipal currentUser = this.User;
+			//var claimsIdentity = (ClaimsIdentity)this.User.Identity;
+			ClaimsPrincipal currentUser = User;
+			var claimsIdentity = (ClaimsIdentity)User.Identity;
 			var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
 
 			AppointmentViewModel appointmentVM = new AppointmentViewModel()
@@ -72,6 +75,30 @@ namespace GraniteHouse.Areas.Admin.Controllers
 			}
 
 			return View(appointmentVM);
+		}
+
+		//Get Edit
+		public async Task<IActionResult> Edit(int? id)
+		{
+			if (id == null)
+			{
+				return NotFound();
+			}
+
+			var productList = (IEnumerable<Products>)(from p in _db.Products
+																						 join a in _db.productsSelectedForAppointments
+																						 on p.Id equals a.ProductId
+																						 where a.AppointmentId == id
+																						 select p).Include("ProductTypes");
+
+			AppointmentDetailsViewModel objAppointmentVM = new AppointmentDetailsViewModel()
+			{
+				Appointment = _db.Appointments.Include(a => a.SalesPerson).Where(a => a.Id == id).FirstOrDefault(),
+				SalesPerson = _db.ApplicationUser.ToList(),
+				Products = productList.ToList(),
+			};
+
+			return View(objAppointmentVM);
 		}
 	}
 }
