@@ -5,7 +5,6 @@ C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\bin\Debug\ne
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\bin\Debug\netcoreapp2.1\GraniteHouse.pdb
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\bin\Debug\netcoreapp2.1\GraniteHouse.Views.dll
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\bin\Debug\netcoreapp2.1\GraniteHouse.Views.pdb
-C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.csprojAssemblyReference.cache
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.csproj.CoreCompileInputs.cache
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.RazorAssemblyInfo.cache
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.RazorAssemblyInfo.cs
@@ -91,3 +90,12 @@ C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\ne
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Error.g.cshtml.cs
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
 C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminUsers\Index.g.cshtml.cs
+C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminUsers\Edit.g.cshtml.cs
+C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminUsers\Delete.g.cshtml.cs
+C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Appointments\Index.g.cshtml.cs
+C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Appointments\Edit.g.cshtml.cs
+C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\GraniteHouse.csprojAssemblyReference.cache
+C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Appointments\Details.g.cshtml.cs
+C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Appointments\Delete.g.cshtml.cs
+C:\Users\lucyq\source\repos\Granite House\GraniteHouse\GraniteHouse\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\UserName\Default.g.cshtml.cs
